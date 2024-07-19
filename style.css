@@ -1,0 +1,313 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ffffff;
+    width: 100%;
+}
+
+nav{
+    
+    background-image: url(https://wallpapers.com/images/hd/a-woman-of-mindfulness-rjddho4eipq8m0ii.jpg);
+    width: 100%;
+    
+    
+    
+}
+.navbar{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+.navbar a { 
+    color: rgb(0, 0, 0);
+}
+
+.btn{
+    color: rgb(255, 255, 255);
+    background-color: #005485;
+
+}
+
+.btn:hover{
+    background-color: #3a9fda;
+    color: white;
+}
+
+.navbar-brand{
+    font-weight: bold;
+}
+
+.cnt{
+    width: 100%;
+}
+
+.homeimg img{
+    width: 100%;
+    height: 100vh;
+}
+
+.hometext{
+    margin-right: -100px;
+text-align: right;
+}
+
+.hometext{
+    position: absolute;
+    text-align: right;
+    font-size: 27px;
+    color: white;
+    margin: 370px 0px 10px 0px;
+    margin-left: 0px;
+    left: 900px;
+    right: auto;
+}
+
+
+.hometext h3{
+    text-align: right;
+    font-size: 70px;
+}
+
+.card-body{
+    text-align: center;
+    
+}
+
+.carddiv{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.card img{
+    width: 100%;
+    height: 15em;
+}
+
+.titlediv{
+    text-align: center;
+    margin: 70px 0;
+    color: white;
+    
+}
+
+#techniques{
+    background-color: rgba(2, 94, 122, 0.37);
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding-bottom: 40px;
+}
+
+.cntnrcard{
+    padding: 5px;
+    height: auto;
+}
+
+.cbtn2{
+   
+    margin-bottom: -95px;
+}
+
+.cbtn3{
+    margin-bottom:-55px ;
+}
+
+.banner img{
+    width: 100%;
+    height: 650px;
+}
+
+.bannertext {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 40px;
+    
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
+}
+.cardh{
+    height: 0;
+}
+
+.card{
+    width: 80%;
+    height: 500px;
+    background-color: rgba(2, 94, 122, 0.555);
+
+}.card img{
+    height: 300px;
+}
+.card-text{
+    color: rgb(0, 0, 0);
+}
+.card-title{
+    color: rgb(0, 0, 0);
+}
+
+.aouthors h2{
+text-align: center;
+margin: 60px 0;
+}
+
+
+
+.skill-cntnt{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+    margin-top: 20px;
+    align-items: center ;
+}
+
+.skill-img img{ 
+    width: 80%;
+}
+.pbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0rem;
+    position: relative ;
+    width: 80%;
+}
+.barhead,.barper{
+    font-weight: 500;
+    font-size: x-large;
+
+}
+
+.basebar{
+    background-color: black;
+    height: 0.4rem;
+    width: 100%;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0px;
+}
+
+
+
+.main-h{
+    margin: 60px 0px 40px 0px ;
+}
+.abouttext{
+    font-size: 25px;
+}
+p{
+    color: rgba(2, 94, 122, 0.555);
+}
+h3{
+    color: rgb(2, 94, 122);
+}
+h2{
+    color: rgb(2, 94, 122);
+
+}
+
+.footer{
+    background: #152F4F;
+    color:white;
+    
+    .links{
+      ul {list-style-type: none;}
+      li a{
+        color: white;
+        transition: color .2s;
+        &:hover{
+          text-decoration:none;
+          color:#4180CB;
+          }
+      }
+    }  
+    .about-company{
+      i{font-size: 25px;}
+      a{
+        color:white;
+        transition: color .2s;
+        &:hover{color:#4180CB}
+      }
+    } 
+    .location{
+      i{font-size: 18px;}
+    }
+    .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
+  }
+  a{
+    text-decoration: none;
+    color: rgba(27, 122, 151, 0.555);
+    
+  }
+
+ 
+.card {
+    margin-bottom: 20px;
+  }
+  
+
+  @media (max-width: 575.98px) {
+    .card {
+      width: 100%; 
+    }
+    .carddiv{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .textb h1{
+      font-size: -10px;
+    }
+  }
+  
+  
+  @media (min-width: 576px) and (max-width: 991.98px) {
+    .card {
+      width: calc(50% - 20px); 
+      margin-right: 20px;
+    }
+    .card:last-child {
+      margin-right: 0;
+    }
+    
+  }
+  
+  
+  @media (max-width: 767px) {
+    .hometext {
+      max-width: 40%;
+    }
+    .homeimg {
+      max-width: 100%;
+      margin-top: 20px;
+    }
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+
+  
+  /* @media (min-width: 768px) {
+    .card {
+      width: calc(33.3333% - 20px); 
+      margin-right: 20px;
+    }
+
+    .card:last-child {
+      margin-right: 0; 
+    }
+  } */
+
+ 
+  @media (max-width: 767px) {
+    .card { 
+      width: 100%; 
+    }
+  }
+  
